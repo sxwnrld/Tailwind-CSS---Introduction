@@ -1,75 +1,69 @@
-# Nuxt Minimal Starter
+# TailwindCssProjet — Maquette « My catalogs »
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Intégration d'une maquette de page de gestion de catalogues, réalisée avec **Nuxt 4** et **Tailwind CSS**.
+La page est responsive (mobile, tablette, ordinateur).
 
-## Setup
+> Il s'agit d'une maquette statique : les boutons et les données sont visuels et ne sont pas reliés à une base de données.
 
-Make sure to install dependencies:
+## Technologies
 
-```bash
-# npm
-npm install
+| Outil | Rôle |
+| --- | --- |
+| [Nuxt 4](https://nuxt.com) | Framework Vue (serveur de dev, build) |
+| [Vue 3](https://vuejs.org) | Composants de la page |
+| [Tailwind CSS](https://tailwindcss.com) (via `@nuxtjs/tailwindcss`) | Mise en forme et responsive |
 
-# pnpm
-pnpm install
+## Prérequis
 
-# yarn
-yarn install
+- [Node.js](https://nodejs.org) **version 20 ou plus** (vérifier avec `node -v`)
+- npm (installé avec Node.js) **ou** [Bun](https://bun.sh)
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Installation et lancement
 
 ```bash
-# npm
-npm run dev
+# 1. Récupérer le projet
+git clone https://github.com/Pape42/TailwindCssProjet.git
+cd TailwindCssProjet
 
-# pnpm
-pnpm dev
+# 2. Installer les dépendances
+npm install        # ou : bun install
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
+# 3. Lancer le serveur de développement
+npm run dev        # ou : bun run dev
 ```
 
-## Production
+Ouvrir ensuite **<http://localhost:3000>** dans le navigateur.
+Pour arrêter le serveur : `Ctrl + C` dans le terminal.
 
-Build the application for production:
+## Autres commandes
 
-```bash
-# npm
-npm run build
+| Commande | Description |
+| --- | --- |
+| `npm run build` | Construit la version de production |
+| `npm run preview` | Lance localement la version de production construite |
+| `npm run generate` | Génère un site statique (dossier `.output/public`) |
 
-# pnpm
-pnpm build
+## Structure du projet
 
-# yarn
-yarn build
-
-# bun
-bun run build
+```text
+TailwindCssProjet/
+├── app/
+│   ├── app.vue                 # Page principale (assemble les composants)
+│   ├── assets/css/tailwind.css # Import des styles Tailwind
+│   └── components/
+│       ├── header.vue          # Barre latérale + en-tête « My catalogs »
+│       └── corps.vue           # Grille des cartes de catalogues
+├── public/                     # Fichiers statiques (favicon, robots.txt)
+├── nuxt.config.ts              # Configuration Nuxt (module Tailwind)
+├── tailwind.config.js          # Configuration Tailwind
+└── package.json                # Dépendances et scripts
 ```
 
-Locally preview production build:
+## Couleurs principales
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+| Couleur | Code | Utilisation |
+| --- | --- | --- |
+| Violet | `#463ADD` | Boutons, début du dégradé du logo |
+| Rose | `#FF00FB` | Survol des boutons, dégradé du logo |
+| Bleu clair | `#EEF1FF` | Fond de la barre latérale |
+| Gris clair | `#F9F9FB` | Fond des étiquettes de catégories |
