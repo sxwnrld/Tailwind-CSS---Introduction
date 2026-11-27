@@ -1,9 +1,4 @@
-# TailwindCssProjet — Maquette « My catalogs »
-
-Intégration d'une maquette de page de gestion de catalogues, réalisée avec **Nuxt 4** et **Tailwind CSS**.
-La page est responsive (mobile, tablette, ordinateur).
-
-> Il s'agit d'une maquette statique : les boutons et les données sont visuels et ne sont pas reliés à une base de données.
+# TailwindCssProjet — 
 
 ## Technologies
 
