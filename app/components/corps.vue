@@ -1,6 +1,7 @@
 <template>
-  <div class="md:ml-[318px] min-h-[calc(100vh-8rem)] bg-[#FBFBFD] md:bg-white">
-    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2 md:gap-4 px-3 pt-6 pb-6 sm:p-6 md:p-8">
+  <div class="lg:ml-[318px] min-h-[calc(100vh-8rem)] bg-[#FBFBFD] md:bg-white">
+    <!-- Nombre de colonnes automatique selon la largeur (cartes de 280px minimum) -->
+    <div class="grid grid-cols-[repeat(auto-fill,minmax(min(100%,280px),1fr))] 2xl:grid-cols-[repeat(auto-fill,minmax(360px,1fr))] gap-2 md:gap-4 px-3 pt-6 pb-6 sm:p-6 lg:p-8">
       <div class="bg-white border border-gray-200 md:border-2 md:border-gray-100 w-full rounded-lg p-3 md:p-4 md:py-5 flex flex-col">
         <h2 class="font-medium md:font-semibold text-[13px] md:text-[18px] mb-2">Create catalog</h2>
         <p class="text-gray-500 text-[12px] md:text-[14px] mb-10 md:mb-4">Create new catalog to add products and generate content.</p>
