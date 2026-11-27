@@ -1,11 +1,10 @@
 <template>
   <div class="lg:ml-[318px] min-h-[calc(100vh-8rem)] bg-[#FBFBFD] md:bg-white">
-    <!-- Nombre de colonnes automatique selon la largeur (cartes de 280px minimum) -->
     <div class="grid grid-cols-[repeat(auto-fill,minmax(min(100%,280px),1fr))] 2xl:grid-cols-[repeat(auto-fill,minmax(360px,1fr))] gap-2 md:gap-4 px-3 pt-6 pb-6 sm:p-6 lg:p-8">
       <div class="bg-white border border-gray-200 md:border-2 md:border-gray-100 w-full rounded-lg p-3 md:p-4 md:py-5 flex flex-col">
         <h2 class="font-medium md:font-semibold text-[13px] md:text-[18px] mb-2">Create catalog</h2>
         <p class="text-gray-500 text-[12px] md:text-[14px] mb-10 md:mb-4">Create new catalog to add products and generate content.</p>
-        <button class="w-full flex justify-center items-center gap-2 mt-auto bg-[#463ADD] hover:bg-[#FF00FB] text-white font-medium text-[14px] rounded-md py-2.5 md:py-3 transition">
+        <button class="w-full flex justify-center items-center gap-2 mt-auto bg-[#463ADD] text-white font-medium text-[14px] rounded-md py-2.5 md:py-3">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 md:w-5 md:h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
             <path d="M12 8v8M8 12h8" stroke-linecap="round" stroke-linejoin="round" />

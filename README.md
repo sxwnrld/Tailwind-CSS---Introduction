@@ -1,4 +1,4 @@
-# TailwindCssProjet — 
+# TailwindCssProjet
 
 ## Technologies
 
@@ -10,8 +10,8 @@
 
 ## Prérequis
 
-- [Node.js](https://nodejs.org) **version 20 ou plus** (vérifier avec `node -v`)
-- npm (installé avec Node.js) **ou** [Bun](https://bun.sh)
+- [Node.js](https://nodejs.org) version 20 ou plus (vérifier avec `node -v`)
+- npm (installé avec Node.js) ou [Bun](https://bun.sh)
 
 ## Installation et lancement
 
@@ -27,7 +27,7 @@ npm install        # ou : bun install
 npm run dev        # ou : bun run dev
 ```
 
-Ouvrir ensuite **<http://localhost:3000>** dans le navigateur.
+Ouvrir ensuite <http://localhost:3000> dans le navigateur.
 Pour arrêter le serveur : `Ctrl + C` dans le terminal.
 
 ## Autres commandes
@@ -59,6 +59,6 @@ TailwindCssProjet/
 | Couleur | Code | Utilisation |
 | --- | --- | --- |
 | Violet | `#463ADD` | Boutons, début du dégradé du logo |
-| Rose | `#FF00FB` | Survol des boutons, dégradé du logo |
+| Rose | `#FF00FB` | Dégradé du logo |
 | Bleu clair | `#EEF1FF` | Fond de la barre latérale |
 | Gris clair | `#F9F9FB` | Fond des étiquettes de catégories |
