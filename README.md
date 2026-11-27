@@ -56,9 +56,12 @@ TailwindCssProjet/
 
 ## Couleurs principales
 
-| Couleur | Code | Utilisation |
+Les couleurs sont déclarées dans `tailwind.config.js` (`theme.colors`).
+
+| Nom | Code | Utilisation |
 | --- | --- | --- |
-| Violet | `#463ADD` | Boutons, début du dégradé du logo |
-| Rose | `#FF00FB` | Dégradé du logo |
-| Bleu clair | `#EEF1FF` | Fond de la barre latérale |
-| Gris clair | `#F9F9FB` | Fond des étiquettes de catégories |
+| `primary` | `#463ADD` | Boutons, début du dégradé du logo |
+| `secondary` | `#FF00FB` | Dégradé du logo |
+| `blue-light` | `#EEF1FF` | Fond de la barre latérale |
+| `grey-light` | `#F9F9FB` | Fond des étiquettes de catégories |
+| `background` | `#FBFBFD` | Fond de la page sur mobile |
